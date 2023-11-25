@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+        <a href="index.html"><h4><span id="shop">SHOP</span>LANE</h4></a>
+        </div>
+        <ul class="nav-list">
+           <li><a href="#clothingCards">CLOTHINGS</a></li>
+           <li><a href="#accessoriesCards">ACCESSORIES</a></li> 
+        </ul>
+        <div id="search-wrapper">
+          <i class="fa fa-search"></i>
+          <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories"/>
+      </div>
+        <div class="icons">
+            <a href="#"><i class="fa fa-search searchicon"></i></a>
+            <div class="cart">
+                <a href="checkout.html">
+                 <i class="fa fa-shopping-cart"></i>
+                 <span id="cart-count">0</span>
+                </a>
+            </div>
+            <a href="#"><i class="fa fa-user-circle-o"></i></a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+              
+        </div>
+    </nav>
+    
+<!-- Your carousel markup -->
+<div class="carousel">
+    <div><img src="images/slide/1.png" alt="Image 1"></div>
+    <div><img src="images/slide/2.png" alt="Image 2"></div>
+    <div><img src="images/slide/3.png" alt="Image 3"></div>
+    <div><img src="images/slide/4.png" alt="Image 4"></div>
+</div>
+
+<section id="features">
+    <!-- Icon Conatiner -->
+    <div class="icon-container">
+      <!-- Image Wrapper -->
+      <div class="img-wrapper">
+        <!-- Image -->
+        <img src="images/icon/icon1.png" alt="">
+      </div>
+      <!-- Icon Text  -->
+      <h4>Free Delivery</h4>
+    </div>
+    <!-- Icon Conatiner -->
+    <div class="icon-container">
+      <!-- Image Wrapper -->
+      <div class="img-wrapper">
+        <!-- Image -->
+        <img src="images/icon/icon2.png" alt="">
+      </div>
+      <!-- Icon Text  -->
+      <h4>Money Back Gurantee</h4>
+    </div>
+    <!-- Icon Conatiner -->
+    <div class="icon-container">
+      <!-- Image Wrapper -->
+      <div class="img-wrapper">
+        <!-- Image -->
+        <img src="images/icon/icon3.png" alt="">
+      </div>
+      <!-- Icon Text  -->
+      <h4>Always Support</h4>
+    </div>
+    <!-- Icon Conatiner -->
+    <div class="icon-container">
+      <!-- Image Wrapper -->
+      <div class="img-wrapper">
+        <!-- Image -->
+        <img src="images/icon/icon4.png" alt="">
+      </div>
+      <!-- Icon Text  -->
+      <h4>Secure Payment</h4>
+    </div>
+  </section>
+  <section class="container">
+    <h2 class="sub-head">Clothing for Men and Women</h2>
+
+    <div class="card-container" id="clothingCards">
+    </div>
+    <h2 class="sub-head">Accessories for Men and Women</h2>
+    <div class="card-container" id="accessoriesCards">
+    </div>
+  </section>
+
+   <!-- FOOTER SECTION START -->
+   <footer class="footer">
+    <ul class="online-store">
+      <li><h3>Online Store</h3></li>
+      <li><a href="#">Men Clothing</a></li>
+      <li><a href="#">Women Clothing</a></li>
+      <li><a href="#">Men Accessories</a></li>
+      <li><a href="#">Women Accessories</a></li>
+    </ul>
+    <ul class="helpful-links">
+      <li><h3>Helpful Links</h3></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="patners">
+      <li><h3>Patners</h3></li>
+      <li><a href="#">Zara</a></li>
+      <li><a href="#">Pantaloons</a></li>
+      <li><a href="#">Levis</a></li>
+      <li><a href="#">Ucb</a></li>
+      <li><a href="#">+ Many More</a></li>
+    </ul>
+    <ul class="address">
+      <li><h3>Address</h3></li>
+      <li>Building 101</li>
+      <li>Central Avenue</li>
+      <li>LA - 902722</li>
+      <li>United States</li>
+    </ul>
+
+    <img id="edyoda-logo" src="images/edyodalogo.png" alt="EdYoda Projects Logo">
+  </footer>
+
+  <!-- FOOTER SECTION END  -->
+
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Include Slick carousel JavaScript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- Your custom script -->
+
+<script src="js/index.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>

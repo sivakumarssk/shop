@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.order-confirm {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.order-confirm img {
+    height: 400px;
+    max-width: 400px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.searchicon{
+    opacity: 0;
+  }
+  @media screen and (max-width:600px) {
+    #search-wrapper{
+      display: none;
+    }
+    .searchicon{
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width:480px) {
+    #edyoda-logo{
+      right: 0px;
+    }
+  }
